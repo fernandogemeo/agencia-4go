@@ -678,7 +678,7 @@ function Index() {
           <div className="flex items-center gap-6">
             <Logo />
             <span className="text-xs font-mono uppercase tracking-widest text-muted-foreground hidden md:inline">
-              Siempre adelante · MMXXVI
+              Siempre adelante · 2026
             </span>
           </div>
           <p className="text-xs text-muted-foreground">
