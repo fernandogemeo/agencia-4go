@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "4GO Academy — Plan Black Friday para Don Guz" },
-      { name: "description", content: "Estrategia integral de Black Friday para Don Guz (@donguz17). Presentacion exclusiva por 4GO Academy." },
+      { name: "description", content: "Estrategia integral de Black Friday para Don Guz (@donguz17). Presentación exclusiva por 4GO Academy." },
       { property: "og:title", content: "4GO Academy — Plan Black Friday para Don Guz" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -70,38 +70,38 @@ const stats4go = [
   { v: "100K+", l: "Estudiantes impactados", icon: Users },
   { v: "$12M+", l: "Facturados en ventas digitales", icon: TrendingUp },
   { v: "180+", l: "Lanzamientos desde 2018", icon: Star },
-  { v: "Top 5", l: "Mayor facturacion Black Friday 2025 — Hotmart", icon: Zap },
+  { v: "Top 5", l: "Mayor facturación Black Friday 2025 — Hotmart", icon: Zap },
 ];
 
 const services = [
-  { n: "01", title: "Estrategia comprobada", desc: "Metodologias validadas con mas de 100 clientes en 12 paises de LATAM.", icon: ShieldCheck },
-  { n: "02", title: "Data-driven", desc: "Decisiones basadas en datos reales, metricas de conversion y ROI medible.", icon: BarChart3 },
-  { n: "03", title: "Enfoque humano", desc: "Entendemos la marca personal y la conexion emocional con la audiencia.", icon: Heart },
-  { n: "04", title: "Lanzamientos", desc: "Expertos en Black Friday, lanzamientos y campanas de alta conversion.", icon: Target },
+  { n: "01", title: "Estrategia comprobada", desc: "Metodologías validadas con más de 100 clientes en 12 países de LATAM.", icon: ShieldCheck },
+  { n: "02", title: "Data-driven", desc: "Decisiones basadas en datos reales, métricas de conversión y ROI medible.", icon: BarChart3 },
+  { n: "03", title: "Enfoque humano", desc: "Entendemos la marca personal y la conexión emocional con la audiencia.", icon: Heart },
+  { n: "04", title: "Lanzamientos", desc: "Expertos en Black Friday, lanzamientos y campañas de alta conversión.", icon: Target },
 ];
 
 const contentTypes = [
-  { icon: Video, label: "Reels cortos y reflexiones frente a camara" },
+  { icon: Video, label: "Reels cortos y reflexiones frente a cámara" },
   { icon: MessageCircle, label: "Storytelling personal y testimonios" },
   { icon: Brain, label: "Explicaciones sobre mente, emociones y cuerpo" },
   { icon: Heart, label: "Fragmentos de meditaciones guiadas" },
   { icon: Sparkles, label: "Invitaciones a cursos y programas" },
 ];
 
-const triggers = ["Autoridad", "Transformacion", "Curiosidad", "Esperanza", "Identificacion", "Prueba social", "Comunidad", "Dolor > Solucion"];
+const triggers = ["Autoridad", "Transformación", "Curiosidad", "Esperanza", "Identificación", "Prueba social", "Comunidad", "Dolor > Solución"];
 
 const hooks = [
-  '"Sabias que...?"',
-  '"La mayoria de las personas..."',
-  '"Lo que nadie te explico..."',
+  '"¿Sabías que...?"',
+  '"La mayoría de las personas..."',
+  '"Lo que nadie te explicó..."',
   '"Si quieres cambiar tu vida..."',
-  '"Esto esta enfermando tu cuerpo..."',
+  '"Esto está enfermando tu cuerpo..."',
 ];
 
 const channels = [
   { channel: "Instagram Reels", pct: 40, desc: "Contenido viral de alto impacto emocional con CTA directo" },
   { channel: "Stories + Stickers", pct: 25, desc: "Urgencia diaria, countdown, encuestas, testimonios en tiempo real" },
-  { channel: "Email Marketing", pct: 20, desc: "Secuencia de 7 emails: anticipacion, apertura, recordatorios, cierre" },
+  { channel: "Email Marketing", pct: 20, desc: "Secuencia de 7 emails: anticipación, apertura, recordatorios, cierre" },
   { channel: "WhatsApp Broadcast", pct: 10, desc: "Mensajes directos a lista segmentada de leads calificados" },
   { channel: "Lives / Webinar", pct: 5, desc: "Masterclass gratuita pre-BF con pitch al final" },
 ];
@@ -111,26 +111,26 @@ const timeline = [
     phase: "Semana 1–2",
     tag: "Consciencia",
     title: "Despertar el dolor y el deseo",
-    desc: "Contenido enfocado en hacer que la audiencia identifique sus problemas emocionales y fisicos.",
+    desc: "Contenido enfocado en hacer que la audiencia identifique sus problemas emocionales y físicos.",
     items: [
-      'Reels: "5 senales de que tu cuerpo te esta pidiendo ayuda"',
-      "Stories: Encuestas sobre habitos de bienestar y meditacion",
+      'Reels: "5 señales de que tu cuerpo te está pidiendo ayuda"',
+      "Stories: Encuestas sobre hábitos de bienestar y meditación",
       "Carruseles educativos sobre neurociencia y emociones",
       "Testimonios de alumnos transformados (video corto)",
-      "Live semanal: Q&A sobre sanacion emocional",
+      "Live semanal: Q&A sobre sanación emocional",
     ],
   },
   {
     phase: "Semana 3",
-    tag: "Anticipacion",
+    tag: "Anticipación",
     title: "Anunciar que algo grande viene",
     desc: "Crear curiosidad y registros para lista VIP con acceso anticipado.",
     items: [
-      '"Algo grande esta por llegar..." — teaser en reels y stories',
+      '"Algo grande está por llegar..." — teaser en reels y stories',
       "Formulario de registro para lista de espera VIP",
-      "Countdown en stories (faltan X dias)",
+      "Countdown en stories (faltan X días)",
       "Behind the scenes: preparando el programa especial",
-      "Email de anticipacion a base de datos existente",
+      "Email de anticipación a base de datos existente",
     ],
   },
   {
@@ -143,19 +143,19 @@ const timeline = [
       "Bonus adicional solo para primeros 50 compradores",
       "Email secuencia de apertura: historia + oferta + urgencia",
       "Stories: capturas de ventas en tiempo real (prueba social)",
-      "Reel emotivo: Por que cree este programa especial",
+      "Reel emotivo: Por qué creé este programa especial",
     ],
   },
   {
     phase: "Semana 5",
     tag: "Black Friday",
-    title: "Lanzamiento publico masivo",
-    desc: "Maxima presion de ventas con urgencia real y cierre automatico.",
+    title: "Lanzamiento público masivo",
+    desc: "Máxima presión de ventas con urgencia real y cierre automático.",
     items: [
-      "Apertura general con countdown de 7 dias",
-      "1 reel diario con angulos diferentes (dolor, transformacion, testimonios, urgencia)",
+      "Apertura general con countdown de 7 días",
+      "1 reel diario con ángulos diferentes (dolor, transformación, testimonios, urgencia)",
       "3–5 stories diarios: FAQ, objeciones, prueba social, countdown",
-      "Email diario: recordatorio + nuevo angulo + cierre",
+      "Email diario: recordatorio + nuevo ángulo + cierre",
       "Live de cierre: ultimas horas con Q&A en vivo",
       "WhatsApp broadcast a leads calificados",
     ],
@@ -163,10 +163,10 @@ const timeline = [
   {
     phase: "Semana 6",
     tag: "Post-venta",
-    title: "Recuperacion y fidelizacion",
+    title: "Recuperación y fidelización",
     desc: "Maximizar ingresos con carritos abandonados y crear embajadores.",
     items: [
-      "Secuencia de recuperacion de carritos abandonados (email + DM)",
+      "Secuencia de recuperación de carritos abandonados (email + DM)",
       '"Last Chance" de 48h para indecisos',
       "Onboarding excepcional para nuevos alumnos",
       "Solicitar testimonios y reviews tempranos",
@@ -177,19 +177,19 @@ const timeline = [
 
 const projections = [
   { value: "462K", label: "Seguidores actuales", sub: "Base de audiencia calida" },
-  { value: "2–4%", label: "Tasa de conversion estimada", sub: "De leads a compradores" },
-  { value: "3–5x", label: "ROI esperado", sub: "Retorno sobre inversion" },
+  { value: "2–4%", label: "Tasa de conversión estimada", sub: "De leads a compradores" },
+  { value: "3–5x", label: "ROI esperado", sub: "Retorno sobre inversión" },
   { value: "7 dias", label: "Ventana de ventas", sub: "Black Friday + Cyber Monday" },
 ];
 
 const reasons = [
   "Experiencia comprobada lanzando Black Fridays para creadores de contenido en LATAM",
-  "Equipo dedicado de estrategia, copywriting, diseno y media buying",
-  "Metodologia de lanzamiento validada con mas de $12M en ventas digitales",
-  "Entendemos el nicho de bienestar, desarrollo personal y educacion online",
-  "Soporte en tiempo real durante toda la campana de Black Friday",
-  "Equipo de ventas dedicado para maximizar la conversion de leads",
-  "Analisis post-campana con insights accionables para futuras ventas",
+  "Equipo dedicado de estrategia, copywriting, diseño y media buying",
+  "Metodología de lanzamiento validada con más de $12M en ventas digitales",
+  "Entendemos el nicho de bienestar, desarrollo personal y educación online",
+  "Soporte en tiempo real durante toda la campaña de Black Friday",
+  "Equipo de ventas dedicado para maximizar la conversión de leads",
+  "Análisis post-campaña con insights accionables para futuras ventas",
 ];
 
 function Index() {
@@ -201,8 +201,8 @@ function Index() {
           <Logo />
           <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#nosotros" className="hover:text-foreground transition">Nosotros</a>
-            <a href="#analisis" className="hover:text-foreground transition">Analisis</a>
-            <a href="#estrategia" className="hover:text-foreground transition">Metodo</a>
+            <a href="#analisis" className="hover:text-foreground transition">Análisis</a>
+            <a href="#estrategia" className="hover:text-foreground transition">Método</a>
             <a href="#resultados" className="hover:text-foreground transition">Resultados</a>
             <a href="#contacto" className="hover:text-foreground transition">Contacto</a>
           </nav>
@@ -219,7 +219,7 @@ function Index() {
       {/* HERO */}
       <section className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-24 lg:pt-28 lg:pb-32">
         <div className="flex items-center justify-between text-xs font-mono uppercase tracking-[0.2em] text-primary mb-16">
-          <span>Presentacion exclusiva · 2026</span>
+          <span>Presentación exclusiva · 2026</span>
           <span className="text-muted-foreground hidden sm:inline">4GO Academy · Agencia Digital</span>
         </div>
 
@@ -236,11 +236,11 @@ function Index() {
 
         <div className="mt-12 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
           <p className="font-display text-2xl md:text-3xl tracking-tight max-w-xl">
-            La mayor temporada comercial del ano merece la mejor estrategia.
+            La mayor temporada comercial del año merece la mejor estrategia.
           </p>
           <p className="text-muted-foreground max-w-md leading-relaxed">
-            Una propuesta disenada por 4GO Academy, una de las mayores agencias digitales
-            de America Latina, para maximizar tus resultados este Black Friday.
+            Una propuesta diseñada por 4GO Academy, una de las mayores agencias digitales
+            de América Latina, para maximizar tus resultados este Black Friday.
           </p>
         </div>
 
@@ -273,17 +273,17 @@ function Index() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <div className="text-xs font-mono uppercase tracking-[0.2em] text-primary mb-4">
-              Quienes somos
+              Quiénes somos
             </div>
             <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-balance max-w-2xl">
-              Una de las mayores agencias digitales de <span className="brand-line">America Latina.</span>
+              Una de las mayores agencias digitales de <span className="brand-line">América Latina.</span>
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm leading-relaxed">
-            Fernando, Daniel y Gabi — tres fundadores brasilenos que crearon un
-            ecosistema digital que transformo las estrategias de toda America Latina.
-            Pioneros en cruzar la frontera del portugues para apostar por el mercado
-            hispanohablante, donde hoy lideran lanzamientos en mas de 12 paises.
+            Fernando, Daniel y Gabi — tres fundadores brasileños que crearon un
+            ecosistema digital que transformó las estrategias de toda América Latina.
+            Pioneros en cruzar la frontera del portugués para apostar por el mercado
+            hispanohablante, donde hoy lideran lanzamientos en más de 12 países.
           </p>
         </div>
 
@@ -376,7 +376,7 @@ function Index() {
               />
               <div>
                 <div className="text-xs font-mono uppercase tracking-[0.2em] text-accent mb-4">
-                  Por que Don Guz
+                  Por qué Don Guz
                 </div>
                 <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-balance max-w-2xl">
                   Lo que vimos en ti desde el <span className="brand-line">primer momento.</span>
@@ -384,8 +384,8 @@ function Index() {
               </div>
             </div>
             <p className="text-background/50 max-w-sm leading-relaxed">
-              No elegimos parceiros por numeros. Elegimos personas que viven lo que
-              ensenan. Guz, eso es exactamente lo que vimos en ti.
+              No elegimos socios por números. Elegimos personas que viven lo que
+              enseñan. Guz, eso es exactamente lo que vimos en ti.
             </p>
           </div>
 
@@ -414,20 +414,20 @@ function Index() {
               {
                 n: "01",
                 title: "Un avatar transformado",
-                highlight: "Guz vive lo que ensena.",
-                body: "Vivio en Suiza, aprendio su metodologia directamente de maestros americanos. Leyo, estudio, pero sobre todo — lo vivio en carne propia. Y hay algo que nos toco profundamente: la historia de su abuela. Guz no comenzo este camino para vender nada. Comenzo porque queria sanarla. Queria transformar el mundo, empezando por la persona que mas amaba. Ese nivel de humanidad no se fabrica.",
+                highlight: "Guz vive lo que enseña.",
+                body: "Vivió en Suiza, aprendió su metodología directamente de maestros americanos. Leyó, estudió, pero sobre todo — lo vivió en carne propia. Y hay algo que nos tocó profundamente: la historia de su abuela. Guz no comenzó este camino para vender nada. Comenzó porque quería sanarla. Quería transformar el mundo, empezando por la persona que más amaba. Ese nivel de humanidad no se fabrica.",
               },
               {
                 n: "02",
                 title: "Hubo un match real",
-                highlight: "Conexion genuina desde el primer momento.",
-                body: "En nuestra conversacion, Guz nos miro a los ojos. Su lenguaje corporal se mostro abierto, genuino, listo para nuevas alianzas. Nosotros sentimos lo mismo. Fue una conexion real — de valores, de vision, de proposito. No siempre pasa. Con Guz, paso.",
+                highlight: "Conexión genuina desde el primer momento.",
+                body: "En nuestra conversación, Guz nos miró a los ojos. Su lenguaje corporal se mostró abierto, genuino, listo para nuevas alianzas. Nosotros sentimos lo mismo. Fue una conexión real — de valores, de visión, de propósito. No siempre pasa. Con Guz, pasó.",
               },
               {
                 n: "03",
                 title: "Comunidad que vive la transformacion",
                 highlight: "1.000+ alumnos conectados en una sola live.",
-                body: "Eso no se logra con marketing. Se logra con una metodologia que realmente transforma vidas. La prueba social de Don Guz es real, masiva y organica. Su comunidad no solo consume contenido — la vive.",
+                body: "Eso no se logra con marketing. Se logra con una metodología que realmente transforma vidas. La prueba social de Don Guz es real, masiva y orgánica. Su comunidad no solo consume contenido — la vive.",
               },
               {
                 n: "04",
@@ -439,7 +439,7 @@ function Index() {
                 n: "05",
                 title: "Valores alineados con los nuestros",
                 highlight: '"No buscamos clientes. Buscamos aliados."',
-                body: "Lo que mas nos importa al elegir con quien trabajar es la alineacion de valores. Guz nos transmitio una impresion verdadera, honesta, humana. Sus valores son muy parecidos a los nuestros. Por eso estamos aqui.",
+                body: "Lo que más nos importa al elegir con quién trabajar es la alineación de valores. Guz nos transmitió una impresión verdadera, honesta, humana. Sus valores son muy parecidos a los nuestros. Por eso estamos aquí.",
               },
             ].map((item, i) => (
               <li key={item.n} className="grid grid-cols-[auto_1fr] gap-8 md:gap-12 py-10 border-t border-background/15 first:border-t-0">
@@ -469,20 +469,20 @@ function Index() {
           <div className="grid lg:grid-cols-12 gap-12 mb-20">
             <div className="lg:col-span-5">
               <div className="text-xs font-mono uppercase tracking-[0.2em] text-accent mb-4">
-                Nuestra metodologia
+                Nuestra metodología
               </div>
               <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-balance">
-                Metodo Black <span className="brand-line">4GO</span>
+                Método Black <span className="brand-line">4GO</span>
               </h2>
               <p className="mt-6 text-muted-foreground max-w-md leading-relaxed">
                 Cinco pilares que transforman cualquier Black Friday en un evento
-                historico de ventas. Validado con mas de 180 lanzamientos y $12M+ facturados.
+                histórico de ventas. Validado con más de 180 lanzamientos y $12M+ facturados.
               </p>
             </div>
 
             <div className="lg:col-span-7">
               <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
-                No es solo una campana de descuentos. Es un sistema completo que prepara
+                No es solo una campaña de descuentos. Es un sistema completo que prepara
                 tu audiencia, construye deseo, y convierte seguidores en compradores —
                 con una experiencia que los transforma en embajadores de tu marca.
               </p>
@@ -494,32 +494,32 @@ function Index() {
               {
                 n: "01",
                 title: "Clareza",
-                highlight: "Saber exactamente que vender, a quien y por que.",
-                body: "Definimos tu oferta core, el precio ideal, los bonos que multiplican el valor percibido y el mensaje que conecta con el dolor real de tu audiencia. Sin clareza, no hay conversion. Con clareza, cada accion tiene proposito.",
+                highlight: "Saber exactamente qué vender, a quién y por qué.",
+                body: "Definimos tu oferta core, el precio ideal, los bonos que multiplican el valor percibido y el mensaje que conecta con el dolor real de tu audiencia. Sin claridad, no hay conversión. Con claridad, cada acción tiene propósito.",
               },
               {
                 n: "02",
                 title: "Audiencia",
                 highlight: "Construir y calentar la base antes de vender.",
-                body: "Segmentamos tu comunidad, creamos listas VIP, activamos leads frios y construimos una base de datos calificada. Tu audiencia de 462K seguidores es oro — pero solo si esta preparada para comprar cuando llegue el momento.",
+                body: "Segmentamos tu comunidad, creamos listas VIP, activamos leads fríos y construimos una base de datos calificada. Tu audiencia de 462K seguidores es oro — pero solo si está preparada para comprar cuando llegue el momento.",
               },
               {
                 n: "03",
                 title: "Anticipacion",
                 highlight: "Crear deseo antes de abrir el carrito.",
-                body: "Semanas antes del Black Friday, tu audiencia ya sabe que algo grande viene. Teasers, countdowns, behind the scenes, lista de espera — cuando la oferta se abre, la gente ya esta lista para comprar. La venta se cierra antes de empezar.",
+                body: "Semanas antes del Black Friday, tu audiencia ya sabe que algo grande viene. Teasers, countdowns, behind the scenes, lista de espera — cuando la oferta se abre, la gente ya está lista para comprar. La venta se cierra antes de empezar.",
               },
               {
                 n: "04",
                 title: "Oferta Irresistible",
-                highlight: "Una propuesta que seria irracional rechazar.",
-                body: "Precio especial + bonos exclusivos + escasez real + garantia de transformacion. Cada elemento esta disenado para eliminar objeciones y multiplicar el valor percibido. No es un descuento — es una oportunidad unica.",
+                highlight: "Una propuesta que sería irracional rechazar.",
+                body: "Precio especial + bonos exclusivos + escasez real + garantía de transformación. Cada elemento está diseñado para eliminar objeciones y multiplicar el valor percibido. No es un descuento — es una oportunidad única.",
               },
               {
                 n: "05",
                 title: "Movimiento",
                 highlight: "Una narrativa que lo cambia todo.",
-                body: "Tu audiencia tiene que sentir que algo diferente esta pasando: colores nuevos, angulos distintos, una energia que nunca vieron antes. El Movimiento es una Big Idea — una narrativa central que amarra toda la campana, desde el contenido hasta la oferta. Como el 'Plano Perfeito' de Primo Rico, creamos un concepto unico para Don Guz que transforma la Black Friday en un evento con identidad propia. No es solo una promocion — es un momento que tu audiencia va a recordar.",
+                body: "Tu audiencia tiene que sentir que algo diferente está pasando: colores nuevos, ángulos distintos, una energía que nunca vieron antes. El Movimiento es una Big Idea — una narrativa central que amarra toda la campaña, desde el contenido hasta la oferta. Como el 'Plano Perfeito' de Primo Rico, creamos un concepto único para Don Guz que transforma la Black Friday en un evento con identidad propia. No es solo una promoción — es un momento que tu audiencia va a recordar.",
               },
             ].map((item) => (
               <li key={item.n} className="grid grid-cols-[auto_1fr] gap-8 md:gap-12 py-10 border-t border-border first:border-t-0">
@@ -548,15 +548,15 @@ function Index() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <div className="text-xs font-mono uppercase tracking-[0.2em] text-primary mb-4">
-              Proyeccion de resultados
+              Proyección de resultados
             </div>
             <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-balance max-w-2xl">
               Lo que puedes <span className="brand-line">esperar.</span>
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm leading-relaxed">
-            Un ejemplo basado en nuestra experiencia. Los numeros finales dependen
-            del precio del lead y el nivel de inversion.
+            Un ejemplo basado en nuestra experiencia. Los números finales dependen
+            del precio del lead y el nivel de inversión.
           </p>
         </div>
 
@@ -566,7 +566,7 @@ function Index() {
             <div className="text-center md:text-left">
               <div className="font-display text-5xl md:text-6xl font-bold tracking-tight brand-line">20.000</div>
               <div className="mt-2 text-sm font-medium">Leads captados</div>
-              <div className="mt-1 text-xs text-muted-foreground">Base estimada para la campana</div>
+              <div className="mt-1 text-xs text-muted-foreground">Base estimada para la campaña</div>
             </div>
             <div className="flex items-center justify-center">
               <ArrowRight className="w-8 h-8 text-muted-foreground hidden md:block" />
@@ -575,14 +575,14 @@ function Index() {
             <div className="text-center md:text-left">
               <div className="font-display text-5xl md:text-6xl font-bold tracking-tight brand-line">1.000–2.000</div>
               <div className="mt-2 text-sm font-medium">Ventas estimadas</div>
-              <div className="mt-1 text-xs text-muted-foreground">Conversion del 5% al 10% sobre leads</div>
+              <div className="mt-1 text-xs text-muted-foreground">Conversión del 5% al 10% sobre leads</div>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground leading-relaxed max-w-2xl">
               Los resultados finales dependen de dos variables principales: el costo por lead
-              (que varia segun el nicho y la plataforma) y el monto total de inversion en medios.
-              Estos numeros son un escenario conservador basado en campanas similares que hemos ejecutado.
+              (que varía según el nicho y la plataforma) y el monto total de inversión en medios.
+              Estos números son un escenario conservador basado en campañas similares que hemos ejecutado.
             </p>
           </div>
         </div>
@@ -590,7 +590,7 @@ function Index() {
         {/* Why 4GO */}
         <div className="rounded-2xl border border-border bg-card p-8 md:p-12">
           <h3 className="font-display text-2xl md:text-3xl font-bold tracking-tight mb-8">
-            Por que trabajar con <span className="brand-line">4GO Academy</span>
+            Por qué trabajar con <span className="brand-line">4GO Academy</span>
           </h3>
           <div className="grid md:grid-cols-2 gap-4">
             {reasons.map((item) => (
@@ -635,9 +635,9 @@ function Index() {
                 </div>
                 <ul className="space-y-3">
                   {[
-                    "Inversion compartida: cada parte invierte 50% en medios y produccion",
-                    "Gastos compartidos: todas las despesas del lanzamiento se dividen por igual",
-                    "Lucros compartidos: las ganancias tambien se reparten 50/50",
+                    "Inversión compartida: cada parte invierte 50% en medios y producción",
+                    "Gastos compartidos: todos los gastos del lanzamiento se dividen por igual",
+                    "Ganancias compartidas: los beneficios también se reparten 50/50",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2.5 text-sm text-background/70">
                       <CheckCircle className="w-4 h-4 text-accent mt-0.5 shrink-0" />
@@ -666,8 +666,8 @@ function Index() {
               Hagamos tu mayor <span className="brand-line">Black Friday</span>
             </h2>
             <p className="mt-6 text-muted-foreground max-w-xl text-lg leading-relaxed">
-              Agenda una reunion con nuestro equipo para personalizar esta estrategia
-              y comenzar a preparar tu campana.
+              Agenda una reunión con nuestro equipo para personalizar esta estrategia
+              y comenzar a preparar tu campaña.
             </p>
 
             <div className="mt-10">
@@ -695,7 +695,7 @@ function Index() {
             </span>
           </div>
           <p className="text-xs text-muted-foreground">
-            &copy; 2026 4GO Academy. Presentacion exclusiva y confidencial para Don Guz.
+            &copy; 2026 4GO Academy. Presentación exclusiva y confidencial para Don Guz.
           </p>
         </div>
       </footer>
