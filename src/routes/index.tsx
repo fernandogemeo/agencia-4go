@@ -350,7 +350,7 @@ function Index() {
               { name: "Baby Nutri", ig: "@babyNutri", img: "/partners/baby.jpg" },
               { name: "Vencendo Enxaqueca", ig: "@vencendoaenxaqueca", img: "/partners/enxaqueca.jpg" },
               { name: "Maykon Mello", ig: "@omaykowmelo", img: "/partners/maykon.jpg" },
-              { name: "4GO Academy", ig: "@4goacademy", img: "/partners/4go.jpeg" },
+              { name: "4GO Academy", ig: "@4goacademy", img: "/partners/4go.svg" },
             ].map((p) => (
               <div key={p.ig} className="text-center">
                 <div className="w-24 h-24 md:w-28 md:h-28 mx-auto rounded-full overflow-hidden border-2 border-background/20 mb-4">

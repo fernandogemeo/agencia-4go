@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <circle cx="200" cy="200" r="200" fill="white"/>
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e040a0"/>
+      <stop offset="25%" style="stop-color:#3b5bf5"/>
+      <stop offset="50%" style="stop-color:#00b33c"/>
+      <stop offset="75%" style="stop-color:#f5c500"/>
+      <stop offset="100%" style="stop-color:#ff5a2e"/>
+    </linearGradient>
+  </defs>
+  <text x="200" y="210" text-anchor="middle" font-family="'Space Grotesk', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="130" fill="url(#g4)">4GO</text>
+  <text x="200" y="270" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="48" letter-spacing="12" fill="#888">ACADEMY</text>
+</svg>
