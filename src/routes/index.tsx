@@ -245,7 +245,9 @@ function Index() {
         </div>
 
         <div className="mt-12">
-          <a href="#contacto"
+          <a href="https://form.fillout.com/t/uqdFLgKjN7us"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 rounded-full bg-accent text-white px-10 py-5 text-lg font-bold hover:opacity-90 transition-all shadow-[0_8px_30px_-4px_oklch(0.69_0.21_35/0.4)]">
             <ArrowRight className="w-5 h-5" />
             Llenar el formulario para Black Friday
@@ -659,7 +661,7 @@ function Index() {
 
             <div className="mt-10">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeKhLk1f-Pqg0-xpWFojuvGJcwZfsg4AdDKWRgjUBBTVv6Oow/viewform?usp=header"
+                href="https://form.fillout.com/t/uqdFLgKjN7us"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 rounded-full bg-accent text-white px-10 py-5 text-lg font-bold hover:opacity-90 transition-all shadow-[0_8px_30px_-4px_oklch(0.69_0.21_35/0.4)]"
