@@ -368,13 +368,20 @@ function Index() {
       <section id="analisis" className="bg-foreground text-background">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 lg:py-32">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
-            <div>
-              <div className="text-xs font-mono uppercase tracking-[0.2em] text-accent mb-4">
-                Por que Don Guz
+            <div className="flex items-center gap-8">
+              <img
+                src="/founders/donguz.png"
+                alt="Don Guz"
+                className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-2 border-accent shadow-lg shrink-0"
+              />
+              <div>
+                <div className="text-xs font-mono uppercase tracking-[0.2em] text-accent mb-4">
+                  Por que Don Guz
+                </div>
+                <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-balance max-w-2xl">
+                  Lo que vimos en ti desde el <span className="brand-line">primer momento.</span>
+                </h2>
               </div>
-              <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-balance max-w-2xl">
-                Lo que vimos en ti desde el <span className="brand-line">primer momento.</span>
-              </h2>
             </div>
             <p className="text-background/50 max-w-sm leading-relaxed">
               No elegimos parceiros por numeros. Elegimos personas que viven lo que
