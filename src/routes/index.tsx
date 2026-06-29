@@ -395,10 +395,14 @@ function Index() {
               { v: "462K", l: "Seguidores en Instagram" },
               { v: "2.1K+", l: "Publicaciones" },
               { v: "1K+", l: "Alumnos en vivo conectados" },
-              { v: "@donguz17", l: "Instagram" },
+              { v: "@donguz17", l: "Instagram", href: "https://www.instagram.com/donguz17/" },
             ].map((s) => (
               <div key={s.l} className="py-8 px-5 text-center">
-                <div className="font-display text-2xl md:text-3xl font-bold">{s.v}</div>
+                {s.href ? (
+                  <a href={s.href} target="_blank" rel="noopener noreferrer" className="font-display text-2xl md:text-3xl font-bold hover:text-accent transition-colors">{s.v}</a>
+                ) : (
+                  <div className="font-display text-2xl md:text-3xl font-bold">{s.v}</div>
+                )}
                 <div className="mt-2 text-xs uppercase tracking-widest text-background/40">{s.l}</div>
               </div>
             ))}
