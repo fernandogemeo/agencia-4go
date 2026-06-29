@@ -188,6 +188,7 @@ const reasons = [
   "Metodologia de lanzamiento validada con mas de $12M en ventas digitales",
   "Entendemos el nicho de bienestar, desarrollo personal y educacion online",
   "Soporte en tiempo real durante toda la campana de Black Friday",
+  "Equipo de ventas dedicado para maximizar la conversion de leads",
   "Analisis post-campana con insights accionables para futuras ventas",
 ];
 
@@ -221,10 +222,6 @@ function Index() {
           <span>Presentacion exclusiva · 2026</span>
           <span className="text-muted-foreground hidden sm:inline">4GO Academy · Agencia Digital</span>
         </div>
-
-        <p className="text-sm text-muted-foreground mb-8 max-w-md">
-          Estrategia integral para convertir 462K seguidores en una maquina de ventas.
-        </p>
 
         <h1 className="font-display font-bold text-balance text-[clamp(2.75rem,9vw,8rem)] leading-[0.95] tracking-[-0.04em]">
           Plan de{" "}
@@ -281,8 +278,10 @@ function Index() {
             </h2>
           </div>
           <p className="text-muted-foreground max-w-sm leading-relaxed">
-            Fernando, Daniel y Gabi, fundadores brasilenos, crearon un ecosistema
-            digital que ha transformado la vida de miles de emprendedores desde 2018.
+            Fernando, Daniel y Gabi — tres fundadores brasilenos que crearon un
+            ecosistema digital que transformo las estrategias de toda America Latina.
+            Pioneros en cruzar la frontera del portugues para apostar por el mercado
+            hispanohablante, donde hoy lideran lanzamientos en mas de 12 paises.
           </p>
         </div>
 
@@ -338,18 +337,22 @@ function Index() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
             {[
-              { name: "Carolina Smart Pro", ig: "@smartproacademy", initials: "CS" },
-              { name: "Praxis", ig: "@praxisstudio.co", initials: "PX" },
-              { name: "Lucho", ig: "@luchoorozcoconsultor", initials: "LO" },
-              { name: "Inge Francisco", ig: "@elingefrancisco", initials: "IF" },
-              { name: "Ruben Dias", ig: "@espanhol_pro", initials: "RD" },
-              { name: "Marina Viabone", ig: "@marinaviabone", initials: "MV" },
-              { name: "Eduardo Ronchetti", ig: "@eduardo_ronchetti", initials: "ER" },
-              { name: "Mika Serur", ig: "@mikaserur", initials: "MS" },
+              { name: "Carolina Smart Pro", ig: "@smartproacademy", img: "/partners/carolina.jpg" },
+              { name: "Praxis", ig: "@praxisstudio.co", img: "/partners/praxis.jpg" },
+              { name: "Lucho", ig: "@luchoorozcoconsultor", img: "/partners/lucho.jpg" },
+              { name: "Inge Francisco", ig: "@elingefrancisco", img: "/partners/inge.jpg" },
+              { name: "Ruben Dias", ig: "@espanhol_pro", img: "/partners/ruben.jpg" },
+              { name: "Marina Viabone", ig: "@marinaviabone", img: "/partners/marina.jpg" },
+              { name: "Eduardo Ronchetti", ig: "@eduardo_ronchetti", img: "/partners/eduardo.jpg" },
+              { name: "Mika Serur", ig: "@mikaserur", img: "/partners/mika.jpg" },
+              { name: "Baby Nutri", ig: "@babyNutri", img: "/partners/baby.jpg" },
+              { name: "Vencendo Enxaqueca", ig: "@vencendoaenxaqueca", img: "/partners/enxaqueca.jpg" },
+              { name: "Maykon Mello", ig: "@omaykowmelo", img: "/partners/maykon.jpg" },
+              { name: "4GO Academy", ig: "@4goacademy", img: "/partners/4go.jpeg" },
             ].map((p) => (
               <div key={p.ig} className="text-center">
-                <div className="w-24 h-24 md:w-28 md:h-28 mx-auto rounded-full bg-background/10 border-2 border-background/20 flex items-center justify-center mb-4">
-                  <span className="font-display text-2xl md:text-3xl font-bold text-background/60">{p.initials}</span>
+                <div className="w-24 h-24 md:w-28 md:h-28 mx-auto rounded-full overflow-hidden border-2 border-background/20 mb-4">
+                  <img src={p.img} alt={p.name} className="w-full h-full object-cover" />
                 </div>
                 <h3 className="font-display font-bold text-sm md:text-base">{p.name}</h3>
                 <p className="text-background/40 text-xs mt-1">{p.ig}</p>
@@ -372,8 +375,8 @@ function Index() {
               </h2>
             </div>
             <p className="text-background/50 max-w-sm leading-relaxed">
-              No elegimos clientes por numeros. Elegimos personas que viven lo que ensenan.
-              Guz, eso es exactamente lo que vimos en ti.
+              No elegimos parceiros por numeros. Elegimos personas que viven lo que
+              ensenan. Guz, eso es exactamente lo que vimos en ti.
             </p>
           </div>
 
@@ -448,7 +451,7 @@ function Index() {
       </section>
 
       {/* METODO BLACK 4GO */}
-      <section id="estrategia" className="bg-foreground text-background">
+      <section id="estrategia" className="bg-background text-foreground">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 lg:py-32">
           <div className="grid lg:grid-cols-12 gap-12 mb-20">
             <div className="lg:col-span-5">
@@ -458,14 +461,14 @@ function Index() {
               <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-balance">
                 Metodo Black <span className="brand-line">4GO</span>
               </h2>
-              <p className="mt-6 text-background/50 max-w-md leading-relaxed">
+              <p className="mt-6 text-muted-foreground max-w-md leading-relaxed">
                 Cinco pilares que transforman cualquier Black Friday en un evento
                 historico de ventas. Validado con mas de 180 lanzamientos y $12M+ facturados.
               </p>
             </div>
 
             <div className="lg:col-span-7">
-              <p className="text-background/60 text-lg leading-relaxed max-w-xl">
+              <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
                 No es solo una campana de descuentos. Es un sistema completo que prepara
                 tu audiencia, construye deseo, y convierte seguidores en compradores —
                 con una experiencia que los transforma en embajadores de tu marca.
@@ -506,9 +509,9 @@ function Index() {
                 body: "Tu audiencia tiene que sentir que algo diferente esta pasando: colores nuevos, angulos distintos, una energia que nunca vieron antes. El Movimiento es una Big Idea — una narrativa central que amarra toda la campana, desde el contenido hasta la oferta. Como el 'Plano Perfeito' de Primo Rico, creamos un concepto unico para Don Guz que transforma la Black Friday en un evento con identidad propia. No es solo una promocion — es un momento que tu audiencia va a recordar.",
               },
             ].map((item) => (
-              <li key={item.n} className="grid grid-cols-[auto_1fr] gap-8 md:gap-12 py-10 border-t border-background/15 first:border-t-0">
+              <li key={item.n} className="grid grid-cols-[auto_1fr] gap-8 md:gap-12 py-10 border-t border-border first:border-t-0">
                 <div className="pt-1">
-                  <span className="font-display text-5xl md:text-6xl font-bold text-accent/20">{item.n}</span>
+                  <span className="font-display text-5xl md:text-6xl font-bold text-primary/15">{item.n}</span>
                 </div>
                 <div className="max-w-2xl">
                   <h3 className="font-display text-3xl md:text-4xl font-bold tracking-tight mb-3">
@@ -517,7 +520,7 @@ function Index() {
                   <p className="brand-line font-display font-semibold text-lg md:text-xl mb-5">
                     {item.highlight}
                   </p>
-                  <p className="text-background/55 leading-relaxed text-base">
+                  <p className="text-muted-foreground leading-relaxed text-base">
                     {item.body}
                   </p>
                 </div>
@@ -548,7 +551,7 @@ function Index() {
         <div className="rounded-2xl border border-border bg-card p-8 md:p-12 mb-6">
           <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-center">
             <div className="text-center md:text-left">
-              <div className="font-display text-5xl md:text-6xl font-bold tracking-tight brand-line">5.000</div>
+              <div className="font-display text-5xl md:text-6xl font-bold tracking-tight brand-line">20.000</div>
               <div className="mt-2 text-sm font-medium">Leads captados</div>
               <div className="mt-1 text-xs text-muted-foreground">Base estimada para la campana</div>
             </div>
@@ -557,7 +560,7 @@ function Index() {
               <div className="md:hidden w-full h-px bg-border" />
             </div>
             <div className="text-center md:text-left">
-              <div className="font-display text-5xl md:text-6xl font-bold tracking-tight brand-line">250–500</div>
+              <div className="font-display text-5xl md:text-6xl font-bold tracking-tight brand-line">1.000–2.000</div>
               <div className="mt-2 text-sm font-medium">Ventas estimadas</div>
               <div className="mt-1 text-xs text-muted-foreground">Conversion del 5% al 10% sobre leads</div>
             </div>
