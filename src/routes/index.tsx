@@ -543,6 +543,153 @@ function Index() {
         </div>
       </section>
 
+      {/* CALENDARIO BLACK */}
+      <section className="bg-foreground text-background">
+        <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 lg:py-32">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+            <div>
+              <div className="text-xs font-mono uppercase tracking-[0.2em] text-accent mb-4">
+                Calendario
+              </div>
+              <h2 className="font-display text-4xl md:text-6xl font-bold tracking-tight text-balance max-w-2xl">
+                Calendario <span className="brand-line">Black</span>
+              </h2>
+            </div>
+            <p className="text-background/50 max-w-sm leading-relaxed">
+              8 semanas de ejecución estratégica divididas en 4 fases claras.
+              Cada fase tiene un objetivo específico y actividades definidas.
+            </p>
+          </div>
+
+          {/* Barra visual proporcional */}
+          <div className="flex rounded-xl overflow-hidden mb-12 h-14 md:h-16">
+            <div className="bg-blue-600 flex items-center justify-center text-xs md:text-sm font-bold text-white" style={{ width: "12.5%" }}>
+              S1
+            </div>
+            <div className="bg-purple-600 flex items-center justify-center text-xs md:text-sm font-bold text-white" style={{ width: "25%" }}>
+              S2–S3
+            </div>
+            <div className="bg-accent flex items-center justify-center text-xs md:text-sm font-bold text-white" style={{ width: "50%" }}>
+              S4–S7
+            </div>
+            <div className="bg-green-500 flex items-center justify-center text-xs md:text-sm font-bold text-white" style={{ width: "12.5%" }}>
+              S8
+            </div>
+          </div>
+
+          {/* Leyenda de la barra */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+            {[
+              { color: "bg-blue-600", label: "Planificación", weeks: "Semana 1" },
+              { color: "bg-purple-600", label: "Grabación", weeks: "Semanas 2–3" },
+              { color: "bg-accent", label: "Captación & Anticipación", weeks: "Semanas 4–7" },
+              { color: "bg-green-500", label: "Ventas", weeks: "Semana 8" },
+            ].map((item) => (
+              <div key={item.label} className="flex items-center gap-3">
+                <div className={`w-3 h-3 rounded-full ${item.color} shrink-0`} />
+                <div>
+                  <div className="text-sm font-bold">{item.label}</div>
+                  <div className="text-xs text-background/40">{item.weeks}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* 8 cards individuales por semana */}
+          <div className="grid grid-cols-4 md:grid-cols-8 gap-2 mb-16">
+            {[
+              { n: "S1", phase: "Planificación", color: "border-blue-600 bg-blue-600/10" },
+              { n: "S2", phase: "Grabación", color: "border-purple-600 bg-purple-600/10" },
+              { n: "S3", phase: "Grabación", color: "border-purple-600 bg-purple-600/10" },
+              { n: "S4", phase: "Captación", color: "border-accent bg-accent/10" },
+              { n: "S5", phase: "Anticipación", color: "border-accent bg-accent/10" },
+              { n: "S6", phase: "Anticipación", color: "border-accent bg-accent/10" },
+              { n: "S7", phase: "Anticipación", color: "border-accent bg-accent/10" },
+              { n: "S8", phase: "Ventas", color: "border-green-500 bg-green-500/10" },
+            ].map((s) => (
+              <div key={s.n} className={`rounded-xl border-2 ${s.color} p-3 md:p-4 text-center`}>
+                <div className="font-display text-lg md:text-xl font-bold">{s.n}</div>
+                <div className="text-[10px] md:text-xs text-background/50 mt-1 leading-tight">{s.phase}</div>
+              </div>
+            ))}
+          </div>
+
+          {/* 4 cards de detalle */}
+          <div className="grid md:grid-cols-2 gap-4">
+            {[
+              {
+                icon: "📋",
+                title: "Planificación",
+                weeks: "Semana 1",
+                color: "border-blue-600/30",
+                items: [
+                  "Definir oferta core, precio y bonos exclusivos",
+                  "Crear la Big Idea y narrativa de la campaña",
+                  "Diseñar el funnel completo de captación y ventas",
+                  "Preparar calendario editorial de 8 semanas",
+                ],
+              },
+              {
+                icon: "🎥",
+                title: "Grabación",
+                weeks: "Semanas 2–3",
+                color: "border-purple-600/30",
+                items: [
+                  "Grabar todos los videos de la campaña",
+                  "Producir contenido para reels, stories y ads",
+                  "Crear secuencias de email y páginas de venta",
+                  "Preparar materiales de prueba social y testimonios",
+                ],
+              },
+              {
+                icon: "🎯",
+                title: "Captación & Anticipación",
+                weeks: "Semanas 4–7",
+                color: "border-accent/30",
+                items: [
+                  "Activar campañas de captación de leads",
+                  "Publicar contenido de calentamiento diario",
+                  "Lanzar lista VIP con acceso anticipado",
+                  "Teasers, countdowns y behind the scenes",
+                  "Equipo de ventas activo para conversión de leads",
+                ],
+              },
+              {
+                icon: "💰",
+                title: "Ventas",
+                weeks: "Semana 8",
+                color: "border-green-500/30",
+                items: [
+                  "Apertura de carrito — Black Friday",
+                  "Máxima presión de ventas con urgencia real",
+                  "1 reel + 3–5 stories diarios + email diario",
+                  "Live de cierre con Q&A en las últimas horas",
+                  "Recuperación de carritos abandonados",
+                ],
+              },
+            ].map((phase) => (
+              <div key={phase.title} className={`rounded-2xl border ${phase.color} bg-background/5 p-6 md:p-8`}>
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-2xl">{phase.icon}</span>
+                  <div>
+                    <h3 className="font-display text-xl font-bold">{phase.title}</h3>
+                    <p className="text-xs text-background/40">{phase.weeks}</p>
+                  </div>
+                </div>
+                <ul className="space-y-2">
+                  {phase.items.map((item) => (
+                    <li key={item} className="flex items-start gap-2.5 text-sm text-background/70">
+                      <CheckCircle className="w-4 h-4 text-accent mt-0.5 shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* RESULTADOS */}
       <section id="resultados" className="mx-auto max-w-7xl px-6 lg:px-10 py-24 lg:py-32">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
