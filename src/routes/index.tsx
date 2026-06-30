@@ -156,7 +156,7 @@ const timeline = [
       "1 reel diario con ángulos diferentes (dolor, transformación, testimonios, urgencia)",
       "3–5 stories diarios: FAQ, objeciones, prueba social, countdown",
       "Email diario: recordatorio + nuevo ángulo + cierre",
-      "Live de cierre: ultimas horas con Q&A en vivo",
+      "Live de cierre: últimas horas con Q&A en vivo",
       "WhatsApp broadcast a leads calificados",
     ],
   },
@@ -176,10 +176,10 @@ const timeline = [
 ];
 
 const projections = [
-  { value: "462K", label: "Seguidores actuales", sub: "Base de audiencia calida" },
+  { value: "462K", label: "Seguidores actuales", sub: "Base de audiencia cálida" },
   { value: "2–4%", label: "Tasa de conversión estimada", sub: "De leads a compradores" },
   { value: "3–5x", label: "ROI esperado", sub: "Retorno sobre inversión" },
-  { value: "7 dias", label: "Ventana de ventas", sub: "Black Friday + Cyber Monday" },
+  { value: "7 días", label: "Ventana de ventas", sub: "Black Friday + Cyber Monday" },
 ];
 
 const reasons = [
@@ -425,7 +425,7 @@ function Index() {
               },
               {
                 n: "03",
-                title: "Comunidad que vive la transformacion",
+                title: "Comunidad que vive la transformación",
                 highlight: "1.000+ alumnos conectados en una sola live.",
                 body: "Eso no se logra con marketing. Se logra con una metodología que realmente transforma vidas. La prueba social de Don Guz es real, masiva y orgánica. Su comunidad no solo consume contenido — la vive.",
               },
@@ -493,7 +493,7 @@ function Index() {
             {[
               {
                 n: "01",
-                title: "Clareza",
+                title: "Claridad",
                 highlight: "Saber exactamente qué vender, a quién y por qué.",
                 body: "Definimos tu oferta core, el precio ideal, los bonos que multiplican el valor percibido y el mensaje que conecta con el dolor real de tu audiencia. Sin claridad, no hay conversión. Con claridad, cada acción tiene propósito.",
               },
@@ -505,7 +505,7 @@ function Index() {
               },
               {
                 n: "03",
-                title: "Anticipacion",
+                title: "Anticipación",
                 highlight: "Crear deseo antes de abrir el carrito.",
                 body: "Semanas antes del Black Friday, tu audiencia ya sabe que algo grande viene. Teasers, countdowns, behind the scenes, lista de espera — cuando la oferta se abre, la gente ya está lista para comprar. La venta se cierra antes de empezar.",
               },
