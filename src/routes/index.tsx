@@ -109,7 +109,7 @@ const channels = [
 const timeline = [
   {
     phase: "Semana 1–2",
-    tag: "Consciencia",
+    tag: "Conciencia",
     title: "Despertar el dolor y el deseo",
     desc: "Contenido enfocado en hacer que la audiencia identifique sus problemas emocionales y físicos.",
     items: [
@@ -170,7 +170,7 @@ const timeline = [
       '"Last Chance" de 48h para indecisos',
       "Onboarding excepcional para nuevos alumnos",
       "Solicitar testimonios y reviews tempranos",
-      "Planificar upsell para Enero (siguiente programa)",
+      "Planificar upsell para enero (siguiente programa)",
     ],
   },
 ];
